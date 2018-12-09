@@ -7,8 +7,9 @@ var backgroundB = 198
 
 
 function setup() {
-  var canvas = createCanvas(windowWidth,400);
+  var canvas = createCanvas(600,400);
   canvas.parent('header');
+  align="center"
 
   background(76,225,246);
 }
