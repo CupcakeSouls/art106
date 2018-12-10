@@ -7,9 +7,8 @@ var backgroundB = 198
 
 
 function setup() {
-  var canvas = createCanvas(600,400);
-  canvas.parent('header');
-  align="center"
+  var canvas = createCanvas(windowWidth,400);
+  canvas.parent('sketch');
 
   background(76,225,246);
 }
@@ -24,7 +23,7 @@ function draw() {
     background(backgroundColor);
 	
 	
-	
+	translate(300,0);
 	
   
 	
@@ -151,5 +150,8 @@ function star(x, y, radius1, radius2, npoints) {
 	console.log(mouseX,mouseY)
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, 400);
+}
 
 

@@ -4,49 +4,26 @@ max-height: 100vh;
 }
 
 body {
-    width: 50%;
-    align-content: center;
+    width: 100%;
+
     margin: auto;
-    padding-top: 1%;
-	justify-content: center;
+ 
+	
 	background-color: rgb(76,225,246)
 }
 
-#header{
-	
-	 /* Prevent vertical gaps */
-	 
-	height: 500px;
-   line-height: 20px;
- margin: 0;
-  display: flex;
 
-  /* This centers our sketch horizontally. */
-  justify-content: center;
+#sketch {}
 
-  /* This centers our sketch vertically. */
-  align-items: center;
-  -webkit-column-count: 1;
-  -webkit-column-gap:   20px;
-  -moz-column-count:    1;
-  -moz-column-gap:      20px;
-  column-count:         1;
-  column-gap:           20px; 
-    grid-row-gap:       20px;
-}
 
 #photos {
-  /* Prevent vertical gaps */
-
-   line-height: 20px;
-   
-  -webkit-column-count: 1;
-  -webkit-column-gap:   20px;
-  -moz-column-count:    1;
-  -moz-column-gap:      20px;
-  column-count:         1;
-  column-gap:           20px; 
-    grid-row-gap:       20px;
+        width: 90vmin;
+    margin:0 auto;
+    
+        text-align:center;
+        align-content: center;
+    	justify-content: center;
+ 
 }
 
 #photos img {
@@ -57,6 +34,9 @@ body {
 }
 
 #cinegraph {
+    
+    width: 90vmin;
+    margin: 0 auto;
 	line-height: 20px;
   -webkit-column-count: 1;
   -webkit-column-gap:   20px;
